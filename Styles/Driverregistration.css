@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "vazir";
+    src: url("../Public/Fonts/Vazir.woff2") format("woff2");
+    font-display: swap;
+}
+
+
+body {
+  font-family: "vazir", sans-serif;
+  background-color: #eded4c;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+h2 {
+    
+  text-align: center;
+  margin-bottom: 24px;
+}
+.form-group {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+input,
+select,
+textarea {
+    
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+input[type="file"] {
+  padding: 6px;
+}
+.agreement {
+  margin-top: 20px;
+  padding: 15px;
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  line-height: 1.9;
+}
+button {
+  width: 100%;
+  padding: 14px;
+  background: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+button:hover {
+  background: #005fcc;
+}

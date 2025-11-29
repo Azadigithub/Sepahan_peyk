@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "vazir";
+  src: url("../Public/Fonts/Vazir.woff2") format("woff2");
+  font-display: swap;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "vazir";
+  background-color: #dbdb37;
+}
+.main_buttons > h1 {
+  border: none;
+  text-align: center;
+}
+.main_buttons > button {
+  font-family: "vazir";
+  width: 80%;
+  font-size: 20px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  max-width: 230px;
+  border: 2px solid;
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+form > input , button {
+  padding: 5px 12px;
+  font-size: 18px;
+  border-radius: 8px;
+  outline: none;
+}
